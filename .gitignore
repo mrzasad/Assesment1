@@ -17,3 +17,11 @@ wp-content/plugins/hello.php
 /sitemap.xml
 /sitemap.xml.gz
 
+/DBCore/bin/Debug/netcoreapp3.1
+/DBCore/obj
+/Grocery.Models/bin/Debug/netcoreapp3.1
+/Grocery.Models/obj
+/Grocery.Service/bin/Debug/netcoreapp3.1
+/Grocery.Service/obj
+/GroceryStoreAPI/bin/Debug/netcoreapp3.1
+/GroceryStoreAPI/obj

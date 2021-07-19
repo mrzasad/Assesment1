@@ -1,0 +1,293 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\CustomerService.Test\\CustomerService.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\CustomerService.Test\\CustomerService.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\CustomerService.Test\\CustomerService.Test.csproj",
+        "projectName": "CustomerService.Test",
+        "projectPath": "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\CustomerService.Test\\CustomerService.Test.csproj",
+        "packagesPath": "C:\\Users\\alphasoft\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\CustomerService.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alphasoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://payactiv1.pkgs.visualstudio.com/_packaging/PayActiv_Feed%40Release/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\Grocery.Service\\Grocery.Service.csproj": {
+                "projectPath": "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\Grocery.Service\\Grocery.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\DBCore\\DBCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\DBCore\\DBCore.csproj",
+        "projectName": "DBCore",
+        "projectPath": "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\DBCore\\DBCore.csproj",
+        "packagesPath": "C:\\Users\\alphasoft\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\DBCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alphasoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://payactiv1.pkgs.visualstudio.com/_packaging/PayActiv_Feed%40Release/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\Grocery.Models\\Grocery.Models.csproj": {
+                "projectPath": "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\Grocery.Models\\Grocery.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\Grocery.Models\\Grocery.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\Grocery.Models\\Grocery.Models.csproj",
+        "projectName": "Grocery.Models",
+        "projectPath": "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\Grocery.Models\\Grocery.Models.csproj",
+        "packagesPath": "C:\\Users\\alphasoft\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\Grocery.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alphasoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://payactiv1.pkgs.visualstudio.com/_packaging/PayActiv_Feed%40Release/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\Grocery.Service\\Grocery.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\Grocery.Service\\Grocery.Service.csproj",
+        "projectName": "Grocery.Service",
+        "projectPath": "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\Grocery.Service\\Grocery.Service.csproj",
+        "packagesPath": "C:\\Users\\alphasoft\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\Grocery.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alphasoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://payactiv1.pkgs.visualstudio.com/_packaging/PayActiv_Feed%40Release/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\DBCore\\DBCore.csproj": {
+                "projectPath": "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\DBCore\\DBCore.csproj"
+              },
+              "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\Grocery.Models\\Grocery.Models.csproj": {
+                "projectPath": "C:\\Users\\alphasoft\\Documents\\GitHub\\Assesment1\\Grocery.Models\\Grocery.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

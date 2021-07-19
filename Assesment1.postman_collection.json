@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "c3a7b6ed-c5a7-48a7-b9a5-96fba8ade3f5",
+		"name": "Assesment1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CustomerName\":\"Jane\",\r\n    \"CustomerEmail\":\"jane@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44341/api/customer",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44341",
+					"path": [
+						"api",
+						"customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CustomerId\":0,\r\n    \"CustomerName\":\"Asad-updated\",\r\n    \"CustomerEmail\":\"asad@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44341/api/customer",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44341",
+					"path": [
+						"api",
+						"customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CustomerName\":\"Jane\",\r\n    \"CustomerEmail\":\"jane@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44341/api/customer",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44341",
+					"path": [
+						"api",
+						"customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44341/api/customer/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44341",
+					"path": [
+						"api",
+						"customer",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
